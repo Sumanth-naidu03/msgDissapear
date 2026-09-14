@@ -31,4 +31,9 @@ public class ContactController {
     public ResponseEntity<List<String>> list(@PathVariable String owner) {
         return ResponseEntity.ok(contactService.getContacts(owner));
     }
+
+    @GetMapping("/{owner}/conversations")
+    public ResponseEntity<List<String>> getAllConversations(@PathVariable String owner) {
+        return ResponseEntity.ok(contactService.getAllConversationPartners(owner));
+    }
 }

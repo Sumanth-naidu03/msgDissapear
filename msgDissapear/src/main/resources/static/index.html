@@ -804,7 +804,7 @@
   // ── Load contacts from server ─────────────────────────────────────────────
   async function loadContacts() {
     try {
-      const res = await fetch(`${API_CONTACT}/${encodeURIComponent(me)}`);
+      const res = await fetch(`${API_CONTACT}/${encodeURIComponent(me)}/conversations`);
       if (!res.ok) return;
       const users = await res.json();
       renderContacts(users);
@@ -816,7 +816,7 @@
   function renderContacts(users) {
     const list = document.getElementById('contactList');
     if (!users.length) {
-      list.innerHTML = '<div class="sidebar-empty">No contacts yet.<br>Use + Add to find someone by username.</div>';
+      list.innerHTML = '<div class="sidebar-empty">No conversations yet.<br>Send a message to someone or use + Add to find people.</div>';
       return;
     }
     list.innerHTML = '';
