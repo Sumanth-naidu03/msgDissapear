@@ -1,0 +1,8 @@
+=== Sending message (TTL: 60 seconds) ===
+{"id":1,"sender":"alice","recipient":"bob","content":"Hi Bob! This message will disappear in 60 seconds.","createdAt":"2026-09-13T15:06:35.511541400Z","expiresAt":"2026-09-13T15:07:35.504420100Z","read":false,"ttlRemainingSeconds":60}
+
+=== Bob's inbox ===
+[{"id":1,"sender":"alice","recipient":"bob","content":"Hi Bob! This message will disappear in 60 seconds.","createdAt":"2026-09-13T15:06:35.511541Z","expiresAt":"2026-09-13T15:07:35.504420Z","read":true,"ttlRemainingSeconds":60}]
+
+=== Alice's sent messages ===
+[{"id":1,"sender":"alice","recipient":"bob","content":"Hi Bob! This message will disappear in 60 seconds.","createdAt":"2026-09-13T15:06:35.511541Z","expiresAt":"2026-09-13T15:07:35.504420Z","read":true,"ttlRemainingSeconds":60}]
