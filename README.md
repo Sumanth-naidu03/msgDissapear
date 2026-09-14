@@ -1,9 +1,9 @@
-# VanishChat - Disappearing Messages App 💬
+# VanishChat - Disappearing Messages App 
 
 A modern, secure messaging application built with Spring Boot and vanilla JavaScript that automatically deletes messages after a configurable time period. Messages disappear forever, ensuring your conversations remain private.
 
-![VanishChat Logo](screenshots/logo.png)
-*Add a screenshot of your app logo or main interface here*
+<img width="506" height="211" alt="image" src="https://github.com/user-attachments/assets/c2909e97-9392-489d-9849-469b17e96e61" />
+
 
 ##  Features
 
@@ -41,26 +41,27 @@ A modern, secure messaging application built with Spring Boot and vanilla JavaSc
 ##  Screenshots
 
 ### Login & Registration
-![Login Screen](screenshots/login.png)
-*Add screenshot of the login/register page*
+<img width="548" height="663" alt="image" src="https://github.com/user-attachments/assets/68ffb5e1-cfe6-4d8a-b8a7-5f37c6a51fd0" />
+
+
 
 ### Chat Dashboard
-![Chat Dashboard](screenshots/dashboard.png)
-*Add screenshot of the main chat interface showing sidebar and conversation*
+<img width="1592" height="567" alt="image" src="https://github.com/user-attachments/assets/f3c096c0-b814-4c14-bbe0-da8ece3297df" />
+
 
 ### Message Timeline
-![Message Timeline](screenshots/conversation.png)
-*Add screenshot of a conversation with messages and TTL countdowns*
+<img width="352" height="260" alt="image" src="https://github.com/user-attachments/assets/13a7a743-5aa1-4352-b832-52447cda7053" />
+
 
 ### Contact Management
-![Add Contact](screenshots/add-contact.png)
-*Add screenshot of the add contact feature*
+<img width="330" height="175" alt="image" src="https://github.com/user-attachments/assets/69c1158e-b49f-4a12-b398-6492e6a5862a" />
+
 
 ### Timer Settings
-![Timer Settings](screenshots/timer-settings.png)
-*Add screenshot of the disappear timer dropdown*
+<img width="290" height="175" alt="image" src="https://github.com/user-attachments/assets/f29b5a13-45ca-49e8-9b94-60ea6778f549" />
 
-## 🚀 Quick Start
+
+##  Quick Start
 
 ### Prerequisites
 - **Java 17+** (or Java 24 as configured)
