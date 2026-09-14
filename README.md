@@ -281,7 +281,7 @@ curl -X POST http://localhost:8080/api/messages \
 
 ##  Authors
 
-- **Your Name** - *Initial work* - [YourGitHub](https://github.com/Sumanth-naidu03)
+- **Sumanth Thammineni** - *Initial work* - [MyGithub](https://github.com/Sumanth-naidu03)
 
 ## 🙏 Acknowledgments
 
