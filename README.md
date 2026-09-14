@@ -5,40 +5,40 @@ A modern, secure messaging application built with Spring Boot and vanilla JavaSc
 ![VanishChat Logo](screenshots/logo.png)
 *Add a screenshot of your app logo or main interface here*
 
-## 🌟 Features
+##  Features
 
-### 🔐 User Authentication
+###  User Authentication
 - **User Registration**: Create new accounts with username and password
 - **Secure Login**: Authentication system with input validation
 - **Session Management**: Persistent login sessions with sign-out functionality
 
-### 💬 Smart Messaging System
+###  Smart Messaging System
 - **Disappearing Messages**: Configurable auto-deletion (24 hours, 7 days, 30 days, 90 days)
 - **Real-time Countdown**: Live TTL display with color-coded urgency
 - **Two-way Conversations**: See messages from both directions in chat threads
 - **Automatic Message Cleanup**: Background scheduler removes expired messages
 
-### 👥 Contact Management
+###  Contact Management
 - **Auto-Discovery**: Users automatically appear when they message you
 - **Manual Add**: Search and add contacts by username
 - **Smart Contact List**: Shows all conversation partners automatically
 - **No Mutual Contact Required**: Receive messages without pre-adding users
 
-### 🎨 Modern UI/UX
+###  Modern UI/UX
 - **Dark Theme**: Eye-friendly dark interface design
 - **Responsive Layout**: Works on desktop and mobile devices
 - **Real-time Updates**: Messages refresh every 3 seconds
 - **Toast Notifications**: Instant feedback for user actions
 - **Intuitive Navigation**: Simple, clean chat dashboard layout
 
-### ⚡ Technical Features
+###  Technical Features
 - **RESTful API**: Clean REST endpoints for all operations
 - **PostgreSQL Database**: Reliable data persistence
 - **Scheduled Cleanup**: Automatic expired message removal
 - **Input Validation**: Server-side and client-side validation
 - **Error Handling**: Graceful error management and user feedback
 
-## 📱 Screenshots
+##  Screenshots
 
 ### Login & Registration
 ![Login Screen](screenshots/login.png)
@@ -67,7 +67,7 @@ A modern, secure messaging application built with Spring Boot and vanilla JavaSc
 - **PostgreSQL** database server
 - **Maven** (included via wrapper)
 
-### 🛠️ Installation
+### Installation
 
 1. **Clone the repository**
    ```bash
@@ -106,17 +106,17 @@ A modern, secure messaging application built with Spring Boot and vanilla JavaSc
    
    Open your browser and navigate to: `http://localhost:8080`
 
-## 🏗️ Architecture
+##  Architecture
 
 ### Backend (Spring Boot)
 ```
-├── 📁 controller/          # REST API endpoints
-├── 📁 service/            # Business logic layer
-├── 📁 repository/         # Data access layer
-├── 📁 entity/            # JPA entities (User, Message, Contact)
-├── 📁 dto/               # Data transfer objects
-├── 📁 scheduler/         # Background cleanup tasks
-└── 📁 resources/         # Configuration and static files
+├──  controller/          # REST API endpoints
+├──  service/            # Business logic layer
+├──  repository/         # Data access layer
+├──  entity/            # JPA entities (User, Message, Contact)
+├──  dto/               # Data transfer objects
+├──  scheduler/         # Background cleanup tasks
+└──  resources/         # Configuration and static files
 ```
 
 ### Database Schema
@@ -150,7 +150,7 @@ CREATE TABLE contacts (
 );
 ```
 
-## 🔧 API Endpoints
+##  API Endpoints
 
 ### Authentication
 - `POST /api/users/register` - Create new user account
@@ -198,7 +198,7 @@ spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
 
 ## 🔒 Security Considerations
 
-⚠️ **Important**: This application uses plain text password storage for simplicity. In production, implement proper security measures:
+**Important**: This application uses plain text password storage for simplicity. In production, implement proper security measures:
 
 - Use **Spring Security** with password hashing (BCrypt)
 - Add **JWT tokens** or session management
@@ -206,7 +206,7 @@ spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
 - Add **input sanitization** and **SQL injection** protection
 - Consider **rate limiting** for API endpoints
 
-## 🧪 Testing
+##  Testing
 
 ### Manual Testing Flow
 1. **Register** two user accounts (e.g., "Alice" and "Bob")
@@ -233,22 +233,22 @@ curl -X POST http://localhost:8080/api/messages \
   -d '{"sender":"alice","recipient":"bob","content":"Hello!","ttlSeconds":3600}'
 ```
 
-## 📊 Features Breakdown
+##  Features Breakdown
 
 | Feature | Status | Description |
 |---------|---------|-------------|
-| ✅ User Registration | Complete | Create accounts with username/password |
-| ✅ User Authentication | Complete | Login system with session management |
-| ✅ Send Messages | Complete | Send messages with configurable TTL |
-| ✅ Receive Messages | Complete | View incoming messages in conversations |
-| ✅ Auto-Delete Messages | Complete | Scheduled cleanup of expired messages |
-| ✅ Contact Management | Complete | Manual add + auto-discovery of message senders |
-| ✅ Real-time Countdown | Complete | Live TTL display with color coding |
-| ✅ Two-way Conversations | Complete | Messages from both directions in single thread |
-| ✅ Modern UI | Complete | Dark theme, responsive design |
-| ✅ PostgreSQL Integration | Complete | Full database persistence |
+| User Registration | Complete | Create accounts with username/password |
+|  User Authentication | Complete | Login system with session management |
+|  Send Messages | Complete | Send messages with configurable TTL |
+|  Receive Messages | Complete | View incoming messages in conversations |
+|  Auto-Delete Messages | Complete | Scheduled cleanup of expired messages |
+|  Contact Management | Complete | Manual add + auto-discovery of message senders |
+|  Real-time Countdown | Complete | Live TTL display with color coding |
+|  Two-way Conversations | Complete | Messages from both directions in single thread |
+|  Modern UI | Complete | Dark theme, responsive design |
+|  PostgreSQL Integration | Complete | Full database persistence |
 
-## 🛣️ Roadmap
+##  Roadmap
 
 ### Upcoming Features
 - [ ] **Message Encryption** - End-to-end encryption for message content
@@ -268,7 +268,7 @@ curl -X POST http://localhost:8080/api/messages \
 - [ ] **Unit Tests** - Comprehensive test coverage
 - [ ] **API Documentation** - Swagger/OpenAPI integration
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
@@ -276,13 +276,11 @@ curl -X POST http://localhost:8080/api/messages \
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 👥 Authors
+##  Authors
 
-- **Your Name** - *Initial work* - [YourGitHub](https://github.com/yourusername)
+- **Your Name** - *Initial work* - [YourGitHub](https://github.com/Sumanth-naidu03)
 
 ## 🙏 Acknowledgments
 
@@ -293,4 +291,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-**⚡ Start chatting with messages that vanish - because some conversations are meant to be temporary!**
+** Start chatting with messages that vanish - because some conversations are meant to be temporary!**
